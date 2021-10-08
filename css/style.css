@@ -418,6 +418,12 @@ footer span {
 }
 
 @media screen and (max-width: 440px){
+    
+    
+    .nav-right ul li{
+        opacity: 1;
+        visibility: visible;
+    }
 
     #home{
         height: 120vh;
