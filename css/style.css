@@ -36,7 +36,7 @@ nav {
     padding-right: 10px;
 }
 
-#iconbar{
+/* #iconbar{
    color: white;
    font-size: 1.5rem;
    position: absolute;
@@ -45,7 +45,7 @@ nav {
    opacity: 0;
    visibility: hidden;
 }
-
+ */
 nav ul li {
     padding: 0px 10px;
     list-style: none;
@@ -289,16 +289,16 @@ footer span {
     }
 
     .nav-right ul li{
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
+        visibility: visible;
     }
 
-    #iconbar{
+/*     #iconbar{
         opacity: 1;
         visibility: visible;    
-    }
+    } */
 
-    .nav-right.responsive{
+/*     .nav-right.responsive{
         width: 100%!important;
         height:  80vh!important;
         background-color: black;
@@ -310,7 +310,7 @@ footer span {
         display: block;
         text-align: center;
         line-height: 300px;
-    }
+    } */
 
     #home{
         font-size: 14px;
@@ -418,13 +418,13 @@ footer span {
 }
 
 @media screen and (max-width: 440px){
-    
+/*     
      #iconbar{
         opacity: 1;
         visibility: visible;    
-    }
+    } */
 
-    .nav-right.responsive{
+/*     .nav-right.responsive{
         width: 100%!important;
         height:  80vh!important;
         background-color: black;
@@ -435,7 +435,7 @@ footer span {
         float: none;
         display: block;
         text-align: center;
-        line-height: 300px;
+        line-height: 300px; */
 
     #home{
         height: 120vh;
