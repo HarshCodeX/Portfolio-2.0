@@ -418,9 +418,13 @@ footer span {
 }
 
 @media screen and (max-width: 440px){
-
-    .navbar{
-        font-size: 10px}
+    
+nav ul li {
+    padding: 0px;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+}
     
     #home{
         height: 120vh;
