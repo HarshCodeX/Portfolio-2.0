@@ -495,3 +495,69 @@ nav ul li {
     
 }
 
+@media screen and (max-width:385px){ 
+
+    .menu_list {
+        padding-right: 0px;
+    }
+
+    nav ul li {
+        padding: 0px;
+        font-size: 18px;
+    }
+
+    #about{
+        height: 150vh;
+    }
+
+    .about-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150vh;
+    }
+
+    .about_img{
+        width: 300px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .about-content{
+        font-size: 14px;
+        width: 300px;
+        height: 270px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-left: 20px;
+        padding: 10px 10px 10px 20px;
+    }
+
+    #work{
+        height: 120vh;
+    }  
+    
+    .progress{
+        width: 300px;;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    form > div{
+        margin: 5px 0px;
+    }
+    
+    .email{
+        width: 300px;
+    }
+    
+    #massege{
+        padding: 0px;
+        width: 300px;
+    }
+    
+}
+
