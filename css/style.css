@@ -418,25 +418,10 @@ footer span {
 }
 
 @media screen and (max-width: 440px){
-/*     
-     #iconbar{
-        opacity: 1;
-        visibility: visible;    
-    } */
 
-/*     .nav-right.responsive{
-        width: 100%!important;
-        height:  80vh!important;
-        background-color: black;
-        position: relative;
-    }
-
-    .nav-right.responsive ul{
-        float: none;
-        display: block;
-        text-align: center;
-        line-height: 300px; */
-
+    .navbar{
+        font-size: 10px}
+    
     #home{
         height: 120vh;
     }
